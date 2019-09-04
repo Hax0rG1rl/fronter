@@ -29,7 +29,7 @@ tile.cdn.mierune.co.jp
 
 2. Run fronter 
 ~~~
-python3 fronter.py -d rip-derbycon.azureedge.net -f domains.txt
+$ python3 fronter.py -d rip-derbycon.azureedge.net -f domains.txt
 [+] CDN Endpoint: rip-derbycon.azureedge.net
 
 [+] Testing: www.suzuki.kanagawa.jp

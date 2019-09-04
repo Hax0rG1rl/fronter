@@ -26,6 +26,7 @@ td-cdn.aaq.jp
 tile.cdn.mierune.co.jp
 ~~~
 
+
 2. Run fronter 
 ~~~
 python3 fronter.py -d rip-derbycon.azureedge.net -f domains.txt
@@ -50,6 +51,7 @@ python3 fronter.py -d rip-derbycon.azureedge.net -f domains.txt
 Login to VPS and find your frontable domains
 cat /var/log/apache2/access.log | grep python-requests | awk -F"canary-" {'print $2'} | cut -d " " -f 1 | sort -u
 ~~~
+
 
 3. Login to your VPS to see what domains are frontable 
 ~~~
